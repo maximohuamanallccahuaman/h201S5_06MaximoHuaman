@@ -1,0 +1,15 @@
+# server.port=8002
+# spring.application.name=car-service
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-3-222-74-92.compute-1.amazonaws.com:5432/d6q2s6ttuahj5n
+    username: ybypevqefaldci
+    password: 65f4390d345f736cb83726a72438abc956198669573411ec814a991e31b63bf4
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8003
